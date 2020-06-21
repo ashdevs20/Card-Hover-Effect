@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:ital@1&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: 'montserrat', sans-serif ;
+}
+.cards
+{
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+.cards h1
+{
+   font-size: 40px;
+   margin: 0 0 30px 0;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+.services
+{
+    display: flex;
+    align-items: center;
+}
+.content
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;\
+    border-radius: 4px;
+    transition: all .3s ease;
+}
+.content  .fab
+{
+    font-size: 70px;
+    margin: 16px 0;
+}
+.content > *
+{
+    flex: 1 1 100%;
+}
+.content:hover 
+{
+    color: white;
+}
+.content:hover a
+{
+   border-color: white;
+   background: white;
+}
+.content-1:hover
+{
+    border-color: #1da1f2;
+    background: #1da1f2;
+}
+.content-1:hover a
+{
+   color: #1da1f2;
+}
+.content-2:hover
+{
+    border-color: #ff006a;
+    background: #ff006a;
+}
+.content-2:hover a
+{
+   color: #ff006a;
+}
+.content-3:hover
+{
+    border-color: red;
+    background-color: red;
+}
+.content-3:hover a
+{
+  color: red;  
+}
+
+.content h2
+{
+    font-size: 30px;
+    margin: 16px 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.content p
+{
+    font-size: 17px;
+    font-family: 'poppins', sans-serif ;
+}
+.content a
+{
+   margin: 20px;
+   background: black;
+   color: white;
+   text-decoration: none;
+   text-transform: uppercase;
+   border: 1px solid black;
+   padding: 15px 0;
+   border-radius: 7px;
+   transition: .3s ease;
+}
+.content a:hover
+{
+    border-radius: 20px;
+
+}
+@media (max-width: 900px)
+{
+    .services
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}
